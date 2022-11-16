@@ -78,7 +78,11 @@ const MapComp = ({
         .caba:hover{
           cursor: pointer;
         }
-
+        @media (max-width: 991px) {
+          svg {
+            width: 319px;
+          }
+        }
         `}
         </style>
       </defs>

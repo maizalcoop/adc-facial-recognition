@@ -5,14 +5,12 @@
 
     .swiper-container {
 
-      //   padding-bottom: 3rem;
 
       .swiper-button-prev,
       .swiper-button-next {
         position: absolute;
         color: #ffffff;
         height: 1.5rem;
-        // background-color: black;
         top: 80%;
 
         &::after {
@@ -20,14 +18,6 @@
           font-weight: bold;
         }
       }
-
-      //   .swiper-pagination {
-      //     .swiper-pagination-bullet {
-      //       width: 0.7rem;
-      //       height: 0.7rem;
-      //       --swiper-theme-color: #ffffff;
-      //     }
-      //   }
     }
 
     @media (max-width: 991px) {
@@ -37,8 +27,6 @@
 
   }
 
-  .open {
-    width: 0;
-  }
+
 }
 

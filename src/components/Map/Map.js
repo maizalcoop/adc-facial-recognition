@@ -42,8 +42,11 @@ const Map = () => {
         </div>
 
         <div class="justify-content-center row">
-          <div className="mapBox">
+          <div className="map-instructions">
+            <p>Haz click en las áreas resaltadas en blanco para obtener más información del mapa</p>
+          </div>
 
+          <div className="mapBox">
             <MapComp
               setProvincia={setProvincia}
               provincia={provincia}

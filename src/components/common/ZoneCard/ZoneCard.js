@@ -1,7 +1,7 @@
 import React from 'react'
-import './zoneCard.scss'
-import imgDefault from '../../../assets/img/maps/CABA.svg'
 import ReactHtmlParser from 'react-html-parser';
+import imgDefault from '../../../assets/img/maps/CABA.svg'
+import './zoneCard.scss'
 
 
 const ZoneCard = ({ img = imgDefault, title = 'Title', content = 'content' }) => {
