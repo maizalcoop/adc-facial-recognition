@@ -11,6 +11,7 @@ import AboutADC from '../components/AboutADC/AboutADC'
 import SocialMedia from '../components/AboutADC/SocialMedia'
 import Report from '../components/AboutADC/Report'
 import Footer from '../components/Footer/Footer'
+import Map from '../components/Map/Map'
 
 class App extends React.Component {
   render () {
@@ -73,6 +74,7 @@ class App extends React.Component {
         <Intro />
         <Working cardsList={cardWithImageContent} textWithImage={TextWithImageContent} />
         <Risks riskCardsList={RisksCardContent} />
+        <Map />
         <AboutADC shareIcons={shareIconsContent} reportsList={reportsListContent} socialList={socialIconsContent} />
         <Footer />
       </div>
