@@ -17,13 +17,13 @@ const mapData = [
   },
   {
     img: 'Tigre.svg',
-    title: 'El Tigre (Provincia de Buenos Aires)',
-    content: 'En 2019 (y con nuevas implementaciones en 2020) presentó el software desarrollado por la compañía NEC, que con alto nivel de precisión permite la búsqueda e identificación de personas con antecedentes penales o en situación de extravío. Para su implementación, se instaron más de diez nuevas cámaras en puntos estratégicos del distrito. El Centro de Operaciones de Tigre (COT) podrá buscar e identificar individuos utilizando una foto y contrastando con imágenes en vivo y grabadas.'
+    title: 'Tigre (Provincia de Buenos Aires)',
+    content: 'En 2019 (y con nuevas implementaciones en 2020) presentó el software desarrollado por la compañía NEC, que con alto nivel de precisión permite la búsqueda e identificación de personas con antecedentes penales o en situación de extravío. Para su implementación, se instalaron más de diez nuevas cámaras en puntos estratégicos del distrito. El Centro de Operaciones de Tigre (COT) podrá buscar e identificar individuos utilizando una foto y contrastando con imágenes en vivo y grabadas.'
   },
   {
     img: 'CABA.svg',
-    title: 'Ciudad de Buenos Aires',
-    content: 'En septiembre de 2020, la Legislatura incorporó el sistema de reconocimiento facial a la ley de seguridad pública. A pesar de las recomendaciones de la ADC y otras organizaciones de derechos humanos, el Poder Legislativo y el Poder Judicial convalidó la iniciativa. En 2022 un peritaje de la Policía de Seguridad Aeroportuaria (PSA) confirmó que el gobierno porteño  usa en forma ilegal este  sistema, identificando no solo a prófugos/a de la Justicia, sino a todo tipo de ciudadanos/as.'
+    title: 'Ciudad Autónoma de Buenos Aires',
+    content: 'En septiembre de 2020, la Legislatura incorporó el sistema de reconocimiento facial a la ley de seguridad pública. A pesar de las recomendaciones de la ADC y otras organizaciones de derechos humanos, el Poder Legislativo y el Poder Judicial convalidaron la iniciativa. En 2022 un peritaje de la Policía de Seguridad Aeroportuaria (PSA) confirmó que el gobierno porteño  usa en forma ilegal este  sistema, identificando no solo a prófugos/a de la Justicia, sino a todo tipo de ciudadanos/as.'
   },
   {
     img: 'Mendoza.svg',
@@ -32,12 +32,12 @@ const mapData = [
   },
   {
     img: 'la-matanza.svg',
-    title: 'La Matanza',
-    content: 'Se continúa la implementación de tecnología de reconocimiento facial en centros comerciales, según información publicada desde el Poder Ejecutivo municipal, que cuenta con el apoyo del Ministerio de Seguridad de la Provincia.  No se conoce mayor información en cuanto a aprobación de normativas de parte del Poder Legislativo municipal, como así tampoco qué empresa brindará el servicio y si la misma accedió a su prestación a través de licitación pública o contratación directa con el municipio.'
+    title: 'La Matanza (Provincia de Buenos Aires)',
+    content: 'Continúa la implementación de tecnología de reconocimiento facial en centros comerciales, según información publicada desde el Poder Ejecutivo municipal, que cuenta con el apoyo del Ministerio de Seguridad de la Provincia. No se conoce mayor información en cuanto a la aprobación de normativas de parte del Poder Legislativo municipal, como así tampoco qué empresa brindará el servicio y si la misma accedió a su prestación a través de licitación pública o contratación directa con el municipio.'
   },
   {
     img: 'mar-del-plata.svg',
-    title: 'Mar del Plata',
+    title: 'Mar del Plata (Provincia de Buenos Aires)',
     content: 'En agosto de 2022 el Concejo Deliberante aprobó una ordenanza por iniciativa del Poder Ejecutivo municipal que apunta a adquirir un software que permitirá la identificación de personas, objetos y/o comportamientos dinámicos en la vía pública a partir de las imágenes tomadas por las cámaras.'
   },
 ]
