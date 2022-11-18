@@ -1,4 +1,8 @@
-on: push
+on: 
+  push: 
+    branches: 
+      - master
+      
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
@@ -18,9 +22,5 @@ jobs:
         npm install
         npm run build
 
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@4.3.2
-      with:
-        server: patagonia.buen.hosting
-        username: conmicarano_adc
-        password: ${{ secrets.password }}
+    - name: Echo test
+      run: echo ${{ secrets.password }}
