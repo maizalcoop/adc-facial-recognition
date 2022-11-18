@@ -1,8 +1,4 @@
-on: 
-  push: 
-    branches: 
-      - master
-
+on: push
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
@@ -25,6 +21,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        server: patagonia.buen.hosting
-        username: conmicarano_adc
+        server: ${{ secrets.SERVER }}
+        username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
