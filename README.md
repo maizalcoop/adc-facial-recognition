@@ -1,5 +1,7 @@
 # ADC reconocimiento facial  
 
+[![🚀 Deploy website on push](https://github.com/maizalcoop/adc-facial-recognition/actions/workflows/main.yml/badge.svg)](https://github.com/maizalcoop/adc-facial-recognition/actions/workflows/main.yml)
+
 Sitio web de Asociación por los Derechos Civiles sobre el uso del reconocmiento facial en la Ciudad de Buenos Aires, desarrollado en React.js. 
 
 :point_right: El sitio se encuentra disponible en **https://conmicarano.adc.org.ar/** :point_left: 
