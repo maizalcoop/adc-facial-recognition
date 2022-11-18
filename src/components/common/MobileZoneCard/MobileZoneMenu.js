@@ -1,12 +1,9 @@
-import React, { useState } from "react"
+import React from "react"
 import close from '../../../assets/img/close.svg'
 import MobileZoneGallery from "./MobileZoneGallery"
 import './MobileZoneMenu.scss'
 
 const MobileZoneMenu = ({ setProvincia, setDisplay, display, swiper2, setSwiper2 }) => {
-
-  // const [display, setDisplay] = useState(false)
-
 
   return (
     <div id="mobileZoneMenu">
