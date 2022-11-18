@@ -23,4 +23,4 @@ jobs:
       with:
         server: patagonia.buen.hosting
         username: conmicarano_adc
-        password: ${{ secrets.PASSWORD }}
+        password: ${{ secrets.password }}
