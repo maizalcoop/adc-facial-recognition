@@ -22,5 +22,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
         server: patagonia.buen.hosting
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }} 
+        username: conmicarano_adc
+        password: ${{ secrets.PASSWORD }}
