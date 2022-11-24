@@ -91,6 +91,7 @@ class Header extends React.Component {
                   <Nav className='ml-auto'>
                     <Nav.Link onClick={this.scrollAnchors} href='#working'>¿cómo funciona?</Nav.Link>
                     <Nav.Link onClick={this.scrollAnchors} href='#risks'>riesgos</Nav.Link>
+                    <Nav.Link onClick={this.scrollAnchors} href='#map'>Mapa de la Vigilancia</Nav.Link>
                     <Nav.Link onClick={this.scrollAnchors} href='#about-adc'>¿qué está haciendo la ADC?</Nav.Link>
                   </Nav>
                   <div className='header-cam-cont mob-only'>
